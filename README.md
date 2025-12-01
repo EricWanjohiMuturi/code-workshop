@@ -20,13 +20,15 @@ Whether you're following along, learning these technologies, or just curious, fe
 Let’s build, break, and learn — one challenge at a time.
 
 ## 📁 Repository Structure
-/advent-of-code/
-├── mastering-vue/             # AoC visualizations, UI tools, learning experiments
-├── mastering-fastapi/         # API wrappers, utilities, AoC data processors
-├── mastering-kotlin/          # Kotlin solutions + learning exercises
-├── project-solutions/       # Pure AoC solutions in any language
-├── docs/            # Notes, explanations, reflections
+```text
+advent-of-code/
+├── mastering-vue/        # AoC visualizations, UI tools, learning experiments
+├── mastering-fastapi/    # API wrappers, utilities, AoC data processors
+├── mastering-kotlin/     # Kotlin solutions and learning exercises
+├── project-solutions/    # Pure AoC solutions in any language (organized by year/day)
+├── docs/                 # Notes, explanations, reflections
 └── README.md
+```
 
 ## 🎯 Goals & Learning Path
 1. Vue (Frontend)
