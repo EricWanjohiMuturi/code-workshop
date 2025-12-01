@@ -21,7 +21,7 @@ Let’s build, break, and learn — one challenge at a time.
 
 ## 📁 Repository Structure
 ```text
-advent-of-code/
+code-workshop/
 ├── mastering-vue/        # AoC visualizations, UI tools, learning experiments
 ├── mastering-fastapi/    # API wrappers, utilities, AoC data processors
 ├── mastering-kotlin/     # Kotlin solutions and learning exercises
