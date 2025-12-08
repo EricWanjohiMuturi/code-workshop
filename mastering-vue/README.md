@@ -57,3 +57,42 @@ A typical Vue project structure includes:
 - `package.json` - Project dependencies and scripts
 - `vite.config.js` - Build configuration (when using Vite)
 - `public/` - Static assets
+
+## Single File Components (SFC)
+Vue Single File Components are `.vue` files that encapsulate a component's template, script, and styles in one file:
+
+```vue
+<template>
+    <div class="counter">
+        <p>Count: {{ count }}</p>
+        <button @click="count++">Increment</button>
+    </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+</script>
+
+<style scoped>
+.counter {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+</style>
+```
+
+Each section (`<template>`, `<script>`, `<style>`) handles a specific concern, making components modular and maintainable.
+
+## Separation of Concerns in Vue
+Vue embraces separation of concerns by organizing code into distinct layers:
+
+- **Template** - Declarative markup for the UI structure
+- **Script** - Business logic, state management, and methods
+- **Styles** - Component-specific styling with `scoped` attribute to prevent style leakage
+
+This approach differs from traditional web development where HTML, CSS, and JavaScript were kept separate across different files. Vue's SFC model keeps related code together while maintaining clear boundaries, improving readability and maintainability.
+```
+"Seperation Of Concerns is not equal to the seperation of file types, rather it is the separation by purpose through components"
+```
