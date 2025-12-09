@@ -96,3 +96,8 @@ This approach differs from traditional web development where HTML, CSS, and Java
 ```
 "Seperation Of Concerns is not equal to the seperation of file types, rather it is the separation by purpose through components"
 ```
+## Key Concepts to note:
+- **Single File Components (SFC)** - Structuring Vue components with template, script, and styles in `.vue` files
+- **Component-Based Architecture** - Building modular, reusable UI pieces by purpose
+- **Reactivity Basics** - Using `ref()` to create reactive state that automatically updates the UI
+- **Text Interpolation** - Displaying dynamic data in templates using the `{{ }}` syntax
