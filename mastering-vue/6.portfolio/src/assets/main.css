@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+body {
+    background-color: #edebdf;
+    color: #3d5690;
+    font-family: "Inter", sans-serif;
+    background-image: url('@/assets/e-bg.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-eric{
+    color: #edebdf;
+}
+
+.text-heading{
+    font-family: "Josefin Sans", sans-serif;
+}
