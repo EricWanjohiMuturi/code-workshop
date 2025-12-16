@@ -1,9 +1,9 @@
-<script>
+<script setup>
 
 </script>
 <template>
     <button>
-        Contact Me
+        View Projects
     </button>
 </template>
 <style scoped>
@@ -11,13 +11,13 @@ button {
   position: relative;
   padding: 10px 20px;
   border-radius: 7px;
-  border: 1px solid r#3d5690;
+  border: 1px solid #3d5690;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
-  background: #3d5690;
-  color: #fff;
+  background: transparent;
+  color: #3d5690;
   overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
   -webkit-transition: all 0.2s ease-in;
@@ -26,9 +26,9 @@ button {
 }
 
 button:hover {
-  background: transparent;
-  color: #3d5690;
-  box-shadow: 0 0 30px 5px #485f92e5;
+  background: #3d5690;
+  color: #edebdf;
+  box-shadow: 0 0 30px 5px #5a70a3ef;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -49,8 +49,8 @@ button::before {
   top: 7%;
   left: 0%;
   opacity: 0;
-  background: #fff;
-  box-shadow: 0 0 50px 30px #fff;
+  background: #edebdf;
+  box-shadow: 0 0 50px 30px #edebdf;
   -webkit-transform: skewX(-20deg);
   -moz-transform: skewX(-20deg);
   -ms-transform: skewX(-20deg);

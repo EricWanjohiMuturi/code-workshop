@@ -1,10 +1,38 @@
+<script setup>
+import { ref, onMounted, onUnmounted, nextTick } from 'vue'
+
+const isHidden = ref(false)
+let lastScrollY = window.scrollY
+
+const handleScroll = () => {
+  const currentScrollY = window.scrollY
+
+  if (currentScrollY > lastScrollY && currentScrollY > 60) {
+    isHidden.value = true
+  } else {
+    isHidden.value = false
+  }
+
+  lastScrollY = currentScrollY
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+
+</script>
+
 <template>
   <div
     :class="[
       'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 float-animation',
       'flex items-center justify-between gap-5 sm:gap-5 md:gap-5 lg:gap-8 xl:gap-10',
       'bg-[#edebdf] border border-gray-300 bg-opacity-80 backdrop-blur-md',
-      'rounded-full px-6 py-3 shadow-xl shadow-blue-200/50',
+      'rounded-full px-6 py-3 shadow-xl shadow-[#3d5690]/30',
       'max-w-md w-fit',
       'transition-all duration-300 ease-in-out',
       'hover:shadow-xl hover:bg-opacity-90',
@@ -101,29 +129,3 @@
 
 </style>
 
-<script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
-const isHidden = ref(false)
-let lastScrollY = window.scrollY
-
-const handleScroll = () => {
-  const currentScrollY = window.scrollY
-
-  if (currentScrollY > lastScrollY && currentScrollY > 60) {
-    isHidden.value = true
-  } else {
-    isHidden.value = false
-  }
-
-  lastScrollY = currentScrollY
-}
-
-onMounted(() => {
-  window.addEventListener('scroll', handleScroll, { passive: true })
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
-})
-</script>
