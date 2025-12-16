@@ -101,3 +101,7 @@ This approach differs from traditional web development where HTML, CSS, and Java
 - **Component-Based Architecture** - Building modular, reusable UI pieces by purpose
 - **Reactivity Basics** - Using `ref()` to create reactive state that automatically updates the UI
 - **Text Interpolation** - Displaying dynamic data in templates using the `{{ }}` syntax
+- **Attribute Binding** - Using `v-bind:` or `:` to dynamically bind HTML attributes to reactive data
+- **Event Handling** - Using `@` to listen to DOM events with optional modifiers like `@click.prevent` or `@submit.stop`
+- **Conditional Rendering** - Using `v-if`, `v-else-if`, `v-else`, and `v-show` to display or hide elements based on conditions
+- **List Rendering** - Using `v-for` to render lists of items from arrays or objects with unique key binding

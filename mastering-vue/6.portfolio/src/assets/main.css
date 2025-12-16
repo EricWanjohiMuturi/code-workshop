@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+    background-color: #edebdf;
+    color: #3d5690;
+    background-image: url('@/assets/e-bg.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.text-eric{
+    color: #edebdf;
+}
