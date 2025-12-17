@@ -7,7 +7,7 @@
 <template>
   <main>
     <Hero />
-    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 items-center gap-x-20 mb-20">
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 items-center gap-x-20 mb-20 px-4">
       <Blogs />
       <PlaylistCard />
     </div>
