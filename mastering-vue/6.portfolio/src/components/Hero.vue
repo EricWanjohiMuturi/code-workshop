@@ -3,6 +3,7 @@
   import Outlinebtn from './Outlinebtn.vue';
   import Filledbtn from './Filledbtn.vue';
   import Partners from './Partners.vue';
+  import Socials from './Socials.vue';
 
   import { onMounted, nextTick } from 'vue'
   import AOS from 'aos'
@@ -16,7 +17,7 @@
 </script>
 
 <template>
-  <section id="hero" class="min-h-screen flex items-center" data-aos="fade-up" data-aos-duration="1000">
+  <section id="about" class="min-h-screen flex items-center" data-aos="fade-up" data-aos-duration="1000">
     <div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 items-center gap-x-20">
         <div class="p-3">
@@ -28,13 +29,16 @@
           <div class="mb-10">
             <p data-aos="fade-up" data-aos-duration="1700">
               All my life I have never been this passionate about solving problems with software. Have you identified a gap in your business? 
-              Do you want to automate processes and tasks? Need me to join your team? I am your go to software guy.
+              Need to automate processes and tasks? Need me to join your team? I am your go to software guy.
     
             </p>
             <p data-aos="fade-up" data-aos-duration="1900">
-              I specialize in Software Development and Automations. I deliver responsive, scalable , secure and user-centric solutions. 
+              I specialize in <span class="text-heading font-bold underline">Software Development</span>  and <span class="text-heading font-bold underline">Automations</span>. I deliver responsive, scalable , secure and user-centric solutions. 
               Let's transform your ideas into powerful web applications designed for impact and performance.
             </p>
+            <div data-aos="fade-up" data-aos-duration="2000">
+              <Socials />
+            </div>
           </div>
           <div class="flex items-center gap-5" data-aos="fade-up" data-aos-duration="2200"> 
             <Outlinebtn />
