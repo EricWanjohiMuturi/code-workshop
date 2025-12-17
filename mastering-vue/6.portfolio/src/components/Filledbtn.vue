@@ -1,10 +1,15 @@
-<script setup>
-
+<script setup lang="ts">
+defineProps<{
+  label: string
+  to: string
+}>()
 </script>
 <template>
-    <button>
-        Contact Me
+  <RouterLink :to="to">
+    <button class="cursor-pointer" type="button">
+        {{ label }}
     </button>
+  </RouterLink>
 </template>
 <style scoped>
 button {
