@@ -43,7 +43,7 @@ const blogs = [
     <Heading label="Documenting my experiences..." />
     <h3 class="text-xl mb-5" data-aos="fade-up" data-aos-duration="1200">Find out what I have been up to lately</h3>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-6" data-aos="fade-up" data-aos-duration="1600">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-6 px-4" data-aos="fade-up" data-aos-duration="1600">
       <BlogsCard
         v-for="blog in blogs"
         :key="blog.id"
