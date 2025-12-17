@@ -4,6 +4,7 @@
   import Filledbtn from './Filledbtn.vue';
   import Partners from './Partners.vue';
   import Socials from './Socials.vue';
+  import Heading from './Heading.vue';
 
   import { onMounted, nextTick } from 'vue'
   import AOS from 'aos'
@@ -21,7 +22,7 @@
     <div>
       <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 items-center gap-x-20">
         <div class="p-3">
-          <h2 class="font-medium text-4xl sm:text-4xl md:text-5xl lg:text-6xl my-10 text-heading" data-aos="fade-up" data-aos-duration="1000">Get to know me first...</h2>
+          <Heading label="Get to know me first..."/>
           <div class="mb-5" data-aos="fade-up" data-aos-duration="1500" >
             <p class="text-sm">Hello there 👋, I'm</p>
             <h1 class="font-medium text-2xl text-heading">Muturi Eric Wanjohi</h1>
@@ -41,8 +42,8 @@
             </div>
           </div>
           <div class="flex items-center gap-5" data-aos="fade-up" data-aos-duration="2200"> 
-            <Outlinebtn />
-            <Filledbtn />
+            <Outlinebtn label="View Projects" to="/projects"/>
+            <Filledbtn label="Contact Me" to="/contact-me"/>
           </div>
         </div>
         <div class="flex justify-center p-5">

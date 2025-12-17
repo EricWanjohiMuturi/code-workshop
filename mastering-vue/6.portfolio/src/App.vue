@@ -5,10 +5,7 @@ import Nav from '@/components/Nav.vue';
 <template>
   <main class="mx-auto container">
     <Nav />
-    
-  
     <RouterView />
-
   </main>
 </template>
 
