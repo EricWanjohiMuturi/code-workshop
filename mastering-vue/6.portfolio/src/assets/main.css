@@ -19,3 +19,7 @@ body {
 .text-heading{
     font-family: "Josefin Sans", sans-serif;
 }
+
+.nav-link.router-link-active {
+  font-weight: 700;
+}
