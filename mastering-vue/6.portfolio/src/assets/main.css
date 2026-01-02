@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 
+:root {
+    --color-bg: #edebdf;
+    --color-text: #3d5690;
+    --color-text-dark: #2c3a6f;
+}
+
 body {
-    background-color: #edebdf;
-    color: #3d5690;
+    background-color: var(--color-bg);
+    color: var(--color-text);
     font-family: "Inter", sans-serif;
     background-image: url('@/assets/e-bg.avif');
     background-repeat: no-repeat;
@@ -13,7 +19,7 @@ body {
 }
 
 .text-eric{
-    color: #edebdf;
+    color: var(--color-bg);
 }
 
 .text-heading{
@@ -22,4 +28,16 @@ body {
 
 .nav-link.router-link-active {
   font-weight: 700;
+}
+
+.bg-eric{
+    background-color: var(--color-text);
+}
+
+.text-eric{
+    color: var(--color-text);
+}
+
+.text-eric-dark{
+    color: var(--color-text-dark);
 }

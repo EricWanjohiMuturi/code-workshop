@@ -5,6 +5,7 @@
   import Partners from './Partners.vue';
   import Socials from './Socials.vue';
   import Heading from './Heading.vue';
+  import Subheading from './Subheading.vue';
 
   import { onMounted, nextTick } from 'vue'
   import AOS from 'aos'
@@ -25,7 +26,7 @@
           <Heading label="Get to know me first..."/>
           <div class="mb-5" data-aos="fade-up" data-aos-duration="1500" >
             <p class="text-sm">Hello there 👋, I'm</p>
-            <h1 class="font-medium text-2xl text-heading">Muturi Eric Wanjohi</h1>
+            <Subheading label="Muturi Eric Wanjohi"/>
           </div>
           <div class="mb-10">
             <p data-aos="fade-up" data-aos-duration="1700">

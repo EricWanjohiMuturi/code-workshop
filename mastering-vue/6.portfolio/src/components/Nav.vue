@@ -44,7 +44,7 @@ onUnmounted(() => {
        <button
          class=" mx-2
                 transition-transform duration-200 ease-in-out
-                hover:scale-110 "
+                hover:scale-110 cursor-pointer"
        >
    
        <div>
@@ -62,7 +62,7 @@ onUnmounted(() => {
        <button
          class=" mx-2
                 transition-transform duration-200 ease-in-out
-                hover:scale-110 "
+                hover:scale-110 cursor-pointer"
        >
        
        <div>
@@ -80,7 +80,7 @@ onUnmounted(() => {
        <button
          class=" mx-2
                 transition-transform duration-200 ease-in-out
-                hover:scale-110 "
+                hover:scale-110 cursor-pointer"
        >
        
        <div>
@@ -98,7 +98,7 @@ onUnmounted(() => {
        <button
          class=" mx-2
                 transition-transform duration-200 ease-in-out
-                hover:scale-110 "
+                hover:scale-110 cursor-pointer"
        >
        
        <div>
