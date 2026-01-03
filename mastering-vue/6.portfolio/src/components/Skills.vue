@@ -33,19 +33,16 @@
         {
             "id": 1,
             "name": "JavaScript",
-            "proficiency": 80,
             "icon": `<svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#f7df1e"></rect><path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"></path></g></svg>`
         },
         {
             "id": 2,
             "name": "Python",
-            "proficiency": 95,
             "icon": `<svg viewBox="0 -0.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <linearGradient x1="12.9593594%" y1="12.0393928%" x2="79.6388325%" y2="78.2008538%" id="linearGradient-1"> <stop stop-color="#387EB8" offset="0%"> </stop> <stop stop-color="#366994" offset="100%"> </stop> </linearGradient> <linearGradient x1="19.127525%" y1="20.5791813%" x2="90.7415328%" y2="88.4290372%" id="linearGradient-2"> <stop stop-color="#FFE052" offset="0%"> </stop> <stop stop-color="#FFC331" offset="100%"> </stop> </linearGradient> </defs> <g> <path d="M126.915866,0.0722755491 C62.0835831,0.0722801733 66.1321288,28.1874648 66.1321288,28.1874648 L66.2044043,57.3145115 L128.072276,57.3145115 L128.072276,66.0598532 L41.6307171,66.0598532 C41.6307171,66.0598532 0.144551098,61.3549438 0.144551098,126.771315 C0.144546474,192.187673 36.3546019,189.867871 36.3546019,189.867871 L57.9649915,189.867871 L57.9649915,159.51214 C57.9649915,159.51214 56.8001363,123.302089 93.5968379,123.302089 L154.95878,123.302089 C154.95878,123.302089 189.434218,123.859386 189.434218,89.9830604 L189.434218,33.9695088 C189.434218,33.9695041 194.668541,0.0722755491 126.915866,0.0722755491 L126.915866,0.0722755491 L126.915866,0.0722755491 Z M92.8018069,19.6589497 C98.9572068,19.6589452 103.932242,24.6339846 103.932242,30.7893845 C103.932246,36.9447844 98.9572068,41.9198193 92.8018069,41.9198193 C86.646407,41.9198239 81.6713721,36.9447844 81.6713721,30.7893845 C81.6713674,24.6339846 86.646407,19.6589497 92.8018069,19.6589497 L92.8018069,19.6589497 L92.8018069,19.6589497 Z" fill="url(#linearGradient-1)"> </path> <path d="M128.757101,254.126271 C193.589403,254.126271 189.540839,226.011081 189.540839,226.011081 L189.468564,196.884035 L127.600692,196.884035 L127.600692,188.138693 L214.042251,188.138693 C214.042251,188.138693 255.528417,192.843589 255.528417,127.427208 C255.52844,62.0108566 219.318366,64.3306589 219.318366,64.3306589 L197.707976,64.3306589 L197.707976,94.6863832 C197.707976,94.6863832 198.87285,130.896434 162.07613,130.896434 L100.714182,130.896434 C100.714182,130.896434 66.238745,130.339138 66.238745,164.215486 L66.238745,220.229038 C66.238745,220.229038 61.0044225,254.126271 128.757101,254.126271 L128.757101,254.126271 L128.757101,254.126271 Z M162.87116,234.539597 C156.715759,234.539597 151.740726,229.564564 151.740726,223.409162 C151.740726,217.253759 156.715759,212.278727 162.87116,212.278727 C169.026563,212.278727 174.001595,217.253759 174.001595,223.409162 C174.001618,229.564564 169.026563,234.539597 162.87116,234.539597 L162.87116,234.539597 L162.87116,234.539597 Z" fill="url(#linearGradient-2)"> </path> </g> </g></svg>`
         },
         {
             "id": 3,
             "name": "Kotlin",
-            "proficiency": 25,
             "icon": `<svg viewBox="0 0 125 125" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><linearGradient id="b" x1="-21.045" y1="114.925" x2="95.274" y2="-1.395" gradientUnits="userSpaceOnUse"><stop offset=".108" stop-color="#c757bc"></stop><stop offset=".173" stop-color="#cd5ca9"></stop><stop offset=".492" stop-color="#e8744f"></stop><stop offset=".716" stop-color="#f88316"></stop><stop offset=".823" stop-color="#ff8900"></stop></linearGradient><linearGradient id="a" x1="39.893" y1="147.552" x2="96.589" y2="90.856" gradientUnits="userSpaceOnUse"><stop offset=".296" stop-color="#00afff"></stop><stop offset=".694" stop-color="#5282ff"></stop><stop offset="1" stop-color="#945dff"></stop></linearGradient><linearGradient id="c" x1="-1.501" y1="34.501" x2="38.272" y2="-5.273" xlink:href="#a"></linearGradient></defs><title>icon_Kotlin</title><path fill="url(#b)" d="M62.759 0L0 65.999V125l62.669-62.779L125 0H62.759z"></path><path data-name="&lt;Path&gt;" fill="url(#a)" d="M0 125l62.669-62.778L125 125H0z"></path><path fill="url(#c)" d="M0 0h62.759L0 65.999V0z"></path></g></svg>`
         },
     ]
@@ -297,25 +294,17 @@
             <div class="mb-5">
                 <Subheading label="Programming Languages" class="underline"/>
             </div>
-            <div class="space-y-5">
-                <div v-for="skill in skillsList" :key="skill.id" class="w-full">
-                    <div class="flex justify-between mb-1">
-                        <span class="text-base font-medium text-eric">{{ skill.name }}</span>
-                        <div class="flex gap-2 items-center justify-start">
-                            <div class="flex">
-                                <div v-html="skill.icon" class="w-10 h-5 flex"></div>
-                            </div>
-                            <span class="text-sm font-medium text-eric">{{ skill.proficiency }}%</span>
+            <div class="grid grid-cols-4 gap-5">
+                <div v-for="skill in skillsList" :key="skill.id" class="flex flex-col items-center">
+                    <div>
+                        <div class="flex justify-center">
+                            <div v-html="skill.icon" class="w-10 mb-2"></div>
                         </div>
-                    </div>
-                    <div class="w-full bg-gray-300 rounded-full h-2 dark:bg-gray-700">
-                        <div
-                            class="bg-eric h-2 rounded-full transition-all duration-500 ease-in-out"
-                            :style="{ width: skill.proficiency + '%' }"
-                        ></div>
+                        <h3 class="text-xs text-center font-bold">{{ skill.name }}</h3>
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- Frontend -->
         <div>
