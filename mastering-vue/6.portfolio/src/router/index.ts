@@ -32,16 +32,18 @@ const router = createRouter({
     },
     
   ],
-  /* scrollBehavior(to) {
+  scrollBehavior(to, from, savedPosition) {
+    // keep browser saved position for back/forward navigation
+    if (savedPosition) return savedPosition
+
+    // support hash anchors
     if (to.hash) {
-      return {
-        el: to.hash,
-        behavior: 'smooth',
-      }
+      return { el: to.hash, behavior: 'smooth' }
     }
 
-    return { top: 0 }
-  }, */
+    // default: scroll to top
+    return { left: 0, top: 0 }
+  }
 })
 
 export default router
