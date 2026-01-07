@@ -12,7 +12,6 @@ def latest_shipment() -> dict[str, Any]:
     return shipments[id]
 
 
-
 #dynamic path parameters
 @app.get("/shipment/{id}")
 def get_shipment(id:int) -> dict[str, Any]:
